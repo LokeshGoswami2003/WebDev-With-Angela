@@ -1,0 +1,16 @@
+body{
+    background-color:#66bfbf;      /*lovely color*/
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.h1_class{ 
+    color: red;         /*class is more specific than tag*/
+    margin: 50px auto  ;
+}
+
+.h1_class:hover{       /* pseudo class */
+    color: goldenrod;
+}
